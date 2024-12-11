@@ -1,0 +1,35 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    gap: 20px;
+}
+
+#menssagem{
+    height: 100px;
+    width: 80%;
+}
+
+
+#email{
+    width: 80%;
+    height: 30px;
+}
+
+#assunto{
+    width: 80%;
+    height: 30px;
+}

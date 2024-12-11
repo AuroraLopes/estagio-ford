@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <img src="./src/img/clipart2332496.png" alt="icon-cat" id="icon-cat-header">
+        <nav>
+            <ul class="menu__header">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#">Contato</a></li>
+                        <li><a href="#">Pets</a>
+                           <ul>
+                                <li><a href="#">Gato</a></li>
+                                <li><a href="#">Cachorro</a></li>
+                                <li><a href="#">Exoticos</a></li>
+                             </ul>
+                      </li>
+                  
+          </ul>
+          </nav>    
+
+        <img src="./src/img/gato-bonito-relaxante-no-estudio.jpg" alt="profile photo" id="img-cat-header-profile">
+    </header>
+    <main>
+        <section class="content__cards">
+            <div class="card__item">
+                <div id="img-cat-card-div"></div>
+                <div id="card-text">
+                    <h3> Gatito da Silva</h3>
+                    <p>Gatito da Silva mais conhecido como
+                        Silvinha, muito famoso entre a gataiada!
+                    </p> 
+                </div>
+
+                <div class="card__buttons">
+                    <button id="card-button">Favoritar</button>
+                    <button id="card-button-w-bkg">Adotar</button>  
+                </div>
+                
+            </div>
+
+            <div class="card__item  2">
+                <img src="./src/img/clipart2332496.png" alt="icon-cat" id="img-cat-card-icon">
+                <div id="card-text">
+                    <h3>Tinder Cat</h3>
+                    <p>A Tinder Cat busca o match perfeito entre você 
+                        e o seu pet dos sonhos!
+                    </p>   
+                </div>
+                <div class="card__buttons">
+                    <button id="card-button">Copiar Numero</button>
+                    <button id="card-button-w-bkg">Fale Conosco</button>   
+                </div>
+            </div>
+
+        </section>
+        <section class="content__alert">
+            
+            <div class="alert">
+                <span class="material-symbols-outlined">
+                    warning
+                </span>
+                <div id="alert-text">
+                    <h4>Alerta de Fofura</h4>
+                    <p>Cuidado você está sendo gatificado!</p>
+                </div>
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+              </div>
+        </section>
+    </main>
+</body>
+</html>

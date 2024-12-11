@@ -1,0 +1,156 @@
+
+*,html{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url(./img/sunset-beach-waves-scenery-digital-art-2k-wallpaper-uhdpaper.com-241@0@k.jpg);
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+
+main{
+    width: 350px;
+	height: 600px;
+	overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 20px 50px #000;
+    background: linear-gradient(to bottom, #332941, #3B3486, #f7b5ca);
+}
+
+#chk{
+	display: none;
+}
+
+.form__signup__content{
+    position: relative;
+	width:100%;
+	height: 100%;
+}
+
+.form__signin__content{
+    height: 560px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+	background: linear-gradient(to bottom, #332941, #3B3486, #f7b5ca);
+}
+
+#registration-form-user{
+    display: flex;
+    flex-direction: column;
+}
+
+#registration-form-email{
+    display: flex;
+    flex-direction: column;
+}
+
+#registration-form-password{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#login-form-email{
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form-password{
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-cadastro{
+	color: #F8E559;
+	font-size: 2.3em;
+	padding-right: 55px;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+#titulo-login{
+	color: #F8E559;
+	font-size: 2.3em;
+	padding-right: 55px;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 10px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 10px auto;
+	padding: 12px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #F8E559;
+	background: #332941;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+button:hover{
+	background: #6d44b8;
+}
+
+.form__signin__content label{
+	color: #F8E559;
+    transform: scale(.9);
+    padding-left: 55px;
+    margin: 0px;
+}
+
+.form__signup__content label{
+	color: #F8E559;
+    transform: scale(.9);
+    padding-left: 55px;
+    margin: 0px;
+}
+
+#chk:checked ~ .form__signin__content{
+	transform: translateY(-600px);
+	background: linear-gradient(to top, #332941, #3B3486, #f7b5ca);
+}
+#chk:checked main{
+	background: linear-gradient(to top, #332941, #3B3486, #f7b5ca);
+}
+#chk:checked ~ .form__signin__content #titulo-login{
+	transform: scale(1);	
+}
+#chk:checked ~ .form__signup__content #titulo-cadastro{
+	transform: scale(.6);
+}

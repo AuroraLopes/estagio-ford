@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Seu Site</title>
+</head>
+<body>
+    <main>
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="form__signup__content  is-active">
+            
+            <form >
+                <label for="chk" aria-hidden="true" id="titulo-cadastro">Sign up</label>
+                <div id="registration-form-user">
+                    <label for="registration-form-user"> Seu Usuario:</label>
+                    <input type="text" id="registration-form-user-your" nome="user" required placeholder="Ex. ParadinhaAhh">
+                </div>
+                <div id="registration-form-email">
+                    <label for="registration-form-email-your">Seu E-mail:</label>
+                    <input type="email" id="registration-form-email-your" nome="email" required placeholder="Ex. paradinha@parada.com">
+                </div>
+                <div id="registration-form-password">
+                    <label for="registration-form-password-your"> Sua Senha:</label>
+                    <input type="password" name="password" id="registration-form-password-your" placeholder="Ex. P@radinhaAAA">
+                </div>
+                <button id="button-register-form">Cadastro</button>
+            </form>
+        </div>
+
+        <div class="form__signin__content">
+            <form id="login-form-event">
+                <label for="chk" aria-hidden="true" id="titulo-login">Login</label>
+                <div id="login-form-email">
+                    <label for="login-form-email-your"> E-mail:</label>
+                    <input type="email" name="email-login" id="login-form-email-your" required placeholder="Seu E-mail Veyr!">
+                </div>
+                <div id="login-form-password">
+                    <label for="login-form-password-your"> Senha:</label>
+                    <input type="password" name="password-login" id="login-form-password-your" required placeholder="Não do não veyr!">
+                </div>
+                <button id="button-login-form"> Login</button>
+            </form>
+        </div>
+
+
+    </main>
+</body>
+</html>

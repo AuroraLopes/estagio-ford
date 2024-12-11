@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script type="module" src="./components/components.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="navigateTo('home')">Home</a></li>
+                <li><a href="#about" onclick="navigateTo('about')">Sobre Mim</a></li>
+                <li><a href="#contact" onclick="navigateTo('contact')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="content">
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My SPA</p>
+    </footer>
+</body>
+</html>

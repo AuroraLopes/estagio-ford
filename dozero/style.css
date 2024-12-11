@@ -1,0 +1,42 @@
+
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 80px;
+    background-color: blue;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+.item-1{
+    background-color: black;
+    width: 80%;
+    height: 300px;
+
+}
+.item-2{
+    width: 30%;
+    height: 300px;
+    background-color: brown;
+}
+.item-3{
+
+}
+
+.item-4{
+
+}
+
+.item-5{
+    
+}

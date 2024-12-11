@@ -1,0 +1,18 @@
+
+<template id="custom-button-template">
+    <button class="custom-button">
+        <slot></slot>
+    </button>
+</template>
+
+<template id="custom-card-template">
+    <div class="custom-card">
+        <div class="img-card">
+            <slot name="image"></slot>
+        </div>
+        <div class="text-card">
+            <h3><slot name="title"></slot></h3>
+            <p><slot name="content"></slot></p>
+        </div>
+    </div>
+</template>

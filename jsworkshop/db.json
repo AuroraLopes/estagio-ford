@@ -1,0 +1,52 @@
+{
+  "nft": [
+    {
+      "id": "1",
+      "titulo": "Gart",
+      "img": "./src/img/1-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "2",
+      "titulo": "Um Coro Perfeito",
+      "img": "./src/img/2-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "3",
+      "titulo": "Gatisse Lispector",
+      "img": "./src/img/3-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "4",
+      "titulo": " Vincent Van Gato",
+      "img": "./src/img/4-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "5",
+      "titulo": "Gatalisa",
+      "img": "./src/img/5-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "6",
+      "titulo": "Gata com Brinco de Pérola",
+      "img": "./src/img/6-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "7",
+      "titulo": "Gatizabeth I",
+      "img": "./src/img/7-nft.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "8",
+      "titulo": "Gatita Homes no Jardim",
+      "img": "./src/img/8-nft.jpg",
+      "isAvailable": true
+    }
+  ]
+}

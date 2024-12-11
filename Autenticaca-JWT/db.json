@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "aaa@gmail.com",
+      "password": "$2a$10$/qAC7Q/NnoimruEc87K/vOOmHxfyGt0AbJDJCsbipmXn13VddPXBK",
+      "user": "aaaaa",
+      "id": 1
+    },
+    {
+      "email": "anderson@gmail.com",
+      "password": "$2a$10$jp8.S7ni3fMYdEVkeG.FHOLBCIbBnerzwrIwzJknJInmOUCqYH1yW",
+      "user": "Anderson",
+      "id": 2
+    },
+    {
+      "email": "hellen@teste.com",
+      "password": "$2a$10$z7IgPTyZCThG4whzJlqiT.KjkWljNknOzLjpVeHHAP2b76Xnu5glG",
+      "user": "HellenzinhaBatidão",
+      "id": 3
+    }
+  ]
+}
